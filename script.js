@@ -39,13 +39,3 @@ if (interestForm) {
   });
 }
 
-// Theme toggle
-var themeBtn = document.getElementById('theme');
-if (themeBtn) {
-  themeBtn.addEventListener('click', function () {
-    var root = document.documentElement;
-    var dark = root.getAttribute('data-theme') === 'dark' ||
-      (!root.getAttribute('data-theme') && window.matchMedia('(prefers-color-scheme: dark)').matches);
-    root.setAttribute('data-theme', dark ? 'light' : 'dark');
-  });
-}
