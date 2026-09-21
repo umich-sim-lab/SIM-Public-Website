@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SIM Lab | Driving Simulator and Driver Behavior Research</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#home">SIM <span>Lab</span></a>
+    <nav aria-label="Main">
+      <a href="#home">Home</a>
+      <a href="#simulator">The simulator</a>
+      <a href="#research">Research</a>
+      <a href="#team">Team</a>
+      <a href="#get-involved">Get involved</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<!-- 1. HOMEPAGE -->
+<section id="home" aria-label="Home">
+  <div class="hero" id="hero">
+    <div class="scene" aria-hidden="true"><div class="road"></div></div>
+    <button id="pause" type="button" aria-pressed="false">Pause loop</button>
+    <div class="wrap content">
+      <h1>Driving research, built in a simulator</h1>
+      <p>We study how people drive using a realistic simulator, and share what we learn with researchers, students, and industry partners.</p>
+      <div class="actions">
+        <a class="btn primary" href="#simulator">See the simulator</a>
+        <a class="btn ghost" href="#research">Read our research</a>
+      </div>
+    </div>
+    <span class="placeholder-note">Placeholder: swap in a video loop or photo of a driver in the simulator</span>
+  </div>
+
+  <div class="quick">
+    <div class="wrap">
+      <div>
+        <h2>Take part in a driving study</h2>
+        <p>Sign up for upcoming simulator trials.</p>
+      </div>
+      <div class="links">
+        <a class="btn" href="#get-involved">Sign up as a participant</a>
+        <a class="btn" href="#research">Recent publications</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="mission">
+    <div class="wrap">
+      <h2>What we do</h2>
+      <p class="lede">The SIM team builds and runs a driving simulator to study driver behavior. Our work combines simulation software, custom hardware, and human-subject experiments. <em>(Placeholder mission statement. Replace with the team's own wording.)</em></p>
+    </div>
+  </div>
+</section>
+
+<!-- 2. THE SIMULATOR -->
+<section id="simulator" class="block" aria-label="The simulator">
+  <div class="wrap">
+    <h2>The simulator</h2>
+    <p class="lede">How the simulator is built and what it can measure.</p>
+
+    <div class="grid g2">
+      <article class="panel">
+        <div class="media-ph">Screenshot: Unreal Engine 5 scene</div>
+        <h3>The engine</h3>
+        <p>The environment runs on Unreal Engine 5, which gives us realistic graphics and in-game physics.</p>
+      </article>
+      <article class="panel">
+        <div class="media-ph">Gallery: vehicle models and highway maps</div>
+        <h3>Maps and vehicles</h3>
+        <p>Choose from a range of vehicle models. Random highway map generators let us create new driving scenarios for each study.</p>
+      </article>
+    </div>
+
+    <div class="panel" style="margin-top:20px">
+      <h3>Vision occlusion system</h3>
+      <div class="split" style="margin-top:14px">
+        <div>
+          <p style="color:var(--muted);margin-top:0">This section will explain how we measure driver data, including our visual occlusion technique and our biteswitch hardware. <em>(Placeholder: add the technical description and a hardware photo.)</em></p>
+          <div class="media-ph" style="margin:0">Photo: biteswitch hardware</div>
+        </div>
+        <div>
+          <h3 style="font-size:1.05rem">Example measurements</h3>
+          <p style="margin:6px 0 0;font-size:.95rem;color:var(--muted)">Final list to be confirmed by the team.</p>
+          <ul class="data">
+            <li>Speed and acceleration</li>
+            <li>Steering wheel position</li>
+            <li>Brake and accelerator input</li>
+            <li>Lane position and offset</li>
+            <li>Headway distance and time</li>
+            <li>Vehicle position and orientation</li>
+            <li>Biteswitch presses</li>
+            <li>Video of the driver's view</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 3. RESEARCH & PUBLICATIONS -->
+<section id="research" class="block" aria-label="Research and publications">
+  <div class="wrap">
+    <h2>Research and publications</h2>
+    <p class="lede">Studies and papers, newest first.</p>
+
+    <h3 class="subhead">News</h3>
+    <div class="rows">
+      <div class="row">
+        <time>Date TBD</time>
+        <div><h3>Conference presentation (placeholder)</h3><p>Announce the lab's involvement in research conferences and other major updates here.</p></div>
+      </div>
+      <div class="row">
+        <time>Date TBD</time>
+        <div><h3>Lab update (placeholder)</h3><p>Short news item.</p></div>
+      </div>
+    </div>
+
+    <h3 class="subhead">Publications</h3>
+    <div class="rows">
+      <div class="row">
+        <time>Year TBD</time>
+        <div>
+          <h3>Using Unreal Engine Software for Driving Studies: Developing Documentation to Support Collaboration</h3>
+          <p>Selay and others. Add full author list, venue, and a link to the paper.</p>
+        </div>
+      </div>
+      <div class="row">
+        <time>Year TBD</time>
+        <div><h3>Past study or publication (placeholder)</h3><p>Authors, venue, link.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 4. TEAM -->
+<section id="team" class="block" aria-label="Team">
+  <div class="wrap">
+    <h2>Team</h2>
+    <p class="lede">The investigators and student researchers behind the simulator.</p>
+
+    <h3 class="subhead">Key investigators</h3>
+    <div class="grid g3">
+      <article class="panel person"><div class="avatar" aria-hidden="true">JD</div><h3>Name</h3><div class="role">Title</div><p>Research interests and short bio.</p></article>
+      <article class="panel person"><div class="avatar" aria-hidden="true">JD</div><h3>Name</h3><div class="role">Title</div><p>Research interests and short bio.</p></article>
+      <article class="panel person"><div class="avatar" aria-hidden="true">JD</div><h3>Name</h3><div class="role">Title</div><p>Research interests and short bio.</p></article>
+    </div>
+
+    <h3 class="subhead">Student researchers</h3>
+    <p class="lede" style="margin-top:8px;font-size:1rem">MDP members who update the simulation software, integrate hardware such as the biteswitch and driver's seat, and run experiments.</p>
+    <div class="grid g3">
+      <article class="panel person"><div class="avatar" aria-hidden="true">JD</div><h3>Name</h3><div class="role">Software</div><p>What they work on.</p></article>
+      <article class="panel person"><div class="avatar" aria-hidden="true">JD</div><h3>Name</h3><div class="role">Hardware integration</div><p>What they work on.</p></article>
+      <article class="panel person"><div class="avatar" aria-hidden="true">JD</div><h3>Name</h3><div class="role">Experiments</div><p>What they work on.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- 5. GET INVOLVED -->
+<section id="get-involved" class="block" aria-label="Get involved">
+  <div class="wrap">
+    <h2>Get involved</h2>
+    <p class="lede">Tell us how you'd like to work with us.</p>
+
+    <div class="grid g3">
+      <article class="panel"><h3>Students and faculty</h3><p>Join a project or learn how the simulator can support your research.</p></article>
+      <article class="panel"><h3>Industry partners</h3><p>Request a tour of the simulator or discuss a collaboration.</p></article>
+      <article class="panel"><h3>Study participants</h3><p>Sign up for upcoming simulator trials.</p></article>
+    </div>
+
+    <div class="split">
+      <div>
+        <h3>Send us a message</h3>
+        <form id="interest" novalidate>
+          <label>Name <input name="name" autocomplete="name" required></label>
+          <label>Email <input name="email" type="email" autocomplete="email" required></label>
+          <label>I am a
+            <select name="who">
+              <option>UMich student or faculty member</option>
+              <option>Industry partner</option>
+              <option>Potential study participant</option>
+              <option>Other</option>
+            </select>
+          </label>
+          <label>Message <textarea name="msg"></textarea></label>
+          <button class="btn" type="submit">Send message</button>
+          <p id="formMsg" role="status"></p>
+        </form>
+      </div>
+      <div>
+        <h3>Find us</h3>
+        <dl class="facts">
+          <dt>Lab location</dt><dd>Building and address (placeholder)</dd>
+          <dt>Email</dt><dd>lab-email@umich.edu (placeholder)</dd>
+          <dt>Ways to collaborate</dt><dd>Joint studies, simulator tours, hardware and software integration (placeholder)</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>SIM Lab, University of Michigan (prototype)</span>
+    <button id="theme" type="button">Switch theme</button>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

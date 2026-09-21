@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>SIM Lab | Get Involved</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap">
+      <a class="brand" href="index.html">SIM <span>Lab</span></a>
+      <nav aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="simulator.html">The simulator</a>
+        <a href="research.html">Research</a>
+        <a href="team.html">Team</a>
+        <a href="get-involved.html" class="active">Get involved</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="block" aria-label="Get involved">
+      <div class="wrap">
+        <h2>Get involved</h2>
+        <p class="lede">placeholder</p>
+
+        <div class="grid g3">
+          <article class="panel"><h3>Students and faculty</h3><p>placeholder</p></article>
+          <article class="panel"><h3>Industry partners</h3><p>placeholder</p></article>
+          <article class="panel"><h3>Study participants</h3><p>placeholder</p></article>
+        </div>
+
+        <div class="split">
+          <div>
+            <h3>Send us a message</h3>
+            <form id="interest" novalidate>
+              <label>Name <input name="name" autocomplete="name" required></label>
+              <label>Email <input name="email" type="email" autocomplete="email" required></label>
+              <label>I am a
+                <select name="who">
+                  <option>UMich student or faculty member</option>
+                  <option>Industry partner</option>
+                  <option>Potential study participant</option>
+                  <option>Other</option>
+                </select>
+              </label>
+              <label>Message <textarea name="msg"></textarea></label>
+              <button class="btn" type="submit">Send message</button>
+              <p id="formMsg" role="status"></p>
+            </form>
+          </div>
+          <div>
+            <h3>Find us</h3>
+            <dl class="facts">
+              <dt>Lab location</dt><dd>placeholder</dd>
+              <dt>Email</dt><dd>placeholder</dd>
+              <dt>Ways to collaborate</dt><dd>placeholder</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>SIM Lab, University of Michigan (prototype)</span>
+      <button id="theme" type="button">Switch theme</button>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
