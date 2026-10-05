@@ -107,8 +107,18 @@ nav a.active { background: var(--maize); color: var(--maize-ink); }
   list-style: none; margin: 0; padding: 0;
 }
 .opportunity-list li { border-top: 3px solid var(--maize); padding-top: 12px; font-weight: 600; }
-.recruit-note { grid-column: 1 / -1; background: var(--maize); color: var(--maize-ink); border-color: var(--maize); }
-.recruit-note p { margin: 0; max-width: none; }
+.recruit-note.panel { grid-column: 1 / -1; background: #EEF1F4; color: #303740; border: 3px solid var(--maize); }
+.recruit-note.panel p { margin: 0; max-width: none; color: #303740; }
+.recruit-deck { grid-column: 1 / -1; }
+.recruit-deck-intro { margin: 0 0 16px; font-weight: 600; }
+.slide-frame { overflow: hidden; aspect-ratio: 960 / 569; border: 1px solid var(--line); border-radius: 10px; background: var(--bg); box-shadow: 0 10px 24px rgba(14,27,44,.12); }
+.slide-frame iframe { display: block; width: 100%; height: 100%; border: 0; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .recruit-note.panel { background: #273342; color: #FFFFFF; }
+  :root:not([data-theme="light"]) .recruit-note.panel p { color: #FFFFFF; }
+}
+:root[data-theme="dark"] .recruit-note.panel { background: #273342; color: #FFFFFF; }
+:root[data-theme="dark"] .recruit-note.panel p { color: #FFFFFF; }
 @media (max-width: 760px) {
   .hero { min-height: 408px; }
   .hero .scene::after { top: 20%; }
