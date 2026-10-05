@@ -107,6 +107,8 @@ nav a.active { background: var(--maize); color: var(--maize-ink); }
   list-style: none; margin: 0; padding: 0;
 }
 .opportunity-list li { border-top: 3px solid var(--maize); padding-top: 12px; font-weight: 600; }
+.recruit-note { grid-column: 1 / -1; background: var(--maize); color: var(--maize-ink); border-color: var(--maize); }
+.recruit-note p { margin: 0; max-width: none; }
 @media (max-width: 760px) {
   .hero { min-height: 408px; }
   .hero .scene::after { top: 20%; }
